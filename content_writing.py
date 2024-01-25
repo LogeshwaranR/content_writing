@@ -37,7 +37,7 @@ with st.sidebar:
 # usr_input = "I need a "+ inp_level + " content for " + usr_title + " in the " + inp_context + " with subheadings " + ", ".join(prompt_inp) + ". Each subheading should contain atleast 300 words"
 # st.write(usr_input)
 
-client = OpenAI(api_key = "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")
+client = OpenAI(api_key = "")
 context = "I am preparing a dissertation on "+usr_title
 # usr_input= "find the top 5 manufacturing companies from the provided context.show the results in table form"
 
