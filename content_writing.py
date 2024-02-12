@@ -2,6 +2,7 @@ import openai
 from openai import OpenAI
 import streamlit as st
 import pandas as pd
+import os
  
 st.header("Content generation / Essay Writing")
 
