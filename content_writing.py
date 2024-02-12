@@ -19,7 +19,7 @@ with st.sidebar:
     inp = st.text_input("",i,label_visibility="collapsed")
     prompt_inp.append(inp)
 
-client = OpenAI(api_key = "")
+client = OpenAI(api_key = key)
 context = "I am preparing a dissertation on "+usr_title
 
 gen_content = []
