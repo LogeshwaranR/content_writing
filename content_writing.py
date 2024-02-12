@@ -13,7 +13,7 @@ with st.sidebar:
   st.header("Sub titles")
   sub_heading = ["Project objective and Goal", "Introduction and Context", "Project Scope- how its implementation will help the organization", "The Project-specific details of the project and its implementation strategy", "Description of the deliverables, the timeframe and estimates of resources for execution", "Conclusion- Key findings & recommendations", "Acknowledgements", "Appendices and References"]
   prompt_inp = []
-  key = os.environ.get('API_KEY')
+  key = os.environ['API_KEY']
   st.write("Key-"+str(key))
   for i in sub_heading:
     inp = st.text_input("",i,label_visibility="collapsed")
