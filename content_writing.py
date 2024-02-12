@@ -16,6 +16,7 @@ with st.sidebar:
     inp = st.text_input("",i,label_visibility="collapsed")
     prompt_inp.append(inp)
 
+st.write(os.environ['API_KEY'])
 client = OpenAI(api_key = "")
 context = "I am preparing a dissertation on "+usr_title
 
